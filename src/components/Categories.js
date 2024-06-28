@@ -15,7 +15,7 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className=" bg-red-800 h-20 flex flex-col items-center justify-center mt-5 cursor-pointer  uppercase font-semibold gap-6  md:flex md:flex-row ">
+    <div className=" bg-red-800 sm:h-20  flex flex-col items-center justify-center mt-2  cursor-pointer  uppercase font-semibold gap-6  md:flex md:flex-row ">
       {categories.length > 0 &&
         categories.map((item, index) => {
           return (

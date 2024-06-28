@@ -24,7 +24,7 @@ const Products = () => {
   return (
     <>
       {products.length > 0 && (
-        <div className=" sm:grid sm:grid-cols-3 gap-5 flex flex-col items-center  ">
+        <div className=" sm:grid sm:grid-cols-3 gap-5 flex flex-col items-center ">
           {products.map((item, index) => (
             <div class="h-screen w-full flex items-center justify-center  dark:bg-gray-800">
               <article class="max-w-sm w-full shadow-inner shadow-purple-800 bg-white rounded-lg  overflow-hidden dark:bg-gray-700">
